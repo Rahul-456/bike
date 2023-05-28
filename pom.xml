@@ -19,7 +19,7 @@
         <sonar.login>sqp_0b3ed9252b7bd9678915969a6c1191bb9e1a66d8</sonar.login>
 
     </properties>
--->
+<!--
     <distributionManagement>
     <repository>
         <id>releases</id>
@@ -33,7 +33,20 @@
        <url>http://54.210.27.107:8081/artifactory/libs-snapshot</url>
      </snapshotRepository>
    </distributionManagement>
-    <--
+    -->
+    <distributionManagement>
+    <repository>
+        <id>releases</id>
+        <name>jfrog.cloudbinary.io-releases</name>
+        <url>http://3.88.226.115:8081/artifactory/libs-release-local</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.cloudbinary.io-snapshots</name>
+        <url>http://3.88.226.115:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
