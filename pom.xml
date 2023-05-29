@@ -38,13 +38,13 @@
     <repository>
         <id>releases</id>
         <name>jfrog.cloudbinary.io-releases</name>
-        <url>http://3.88.226.115:8081/artifactory/libs-release-local</url>
+        <url>http://54.211.227.46:8081/artifactory/libs-release-local</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.cloudbinary.io-snapshots</name>
-        <url>http://3.88.226.115:8081/artifactory/libs-snapshot-local</url>
+        <url>http://54.211.227.46:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
     <dependencies>
