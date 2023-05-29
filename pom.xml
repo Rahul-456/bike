@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
     <artifactId>RamagiriRoy</artifactId>
-    <version>1.0.9</version>
+    <version>1.1.1</version>
     <packaging>war</packaging>
     <name>Cloud Binary Sample Spring MVC Application</name>
 
@@ -114,7 +114,7 @@
                     <version>3.2.2</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>yesh</warName>
+                        <warName>cbapps</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
@@ -137,6 +137,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>yesh</finalName>
+        <finalName>cbapps</finalName>
     </build>
 </project>
