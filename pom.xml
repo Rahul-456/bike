@@ -37,16 +37,16 @@
     <distributionManagement>
     <repository>
         <id>releases</id>
-        <name>libs-release-local</name>
-        <url>http://18.212.69.46:8081/artifactory/libs-release-local</url>
+        <name>libs-releases-local</name>
+        <url>hhttp://44.204.14.35:8082/artifactory/libs-release-local/</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>libs-snapshots-local</name>
-        <url>http://18.212.69.46:8081/artifactory/libs-snapshot-local</url>
+        <url>http://44.204.14.35:8082/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement> 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
