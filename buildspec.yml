@@ -9,7 +9,7 @@ phases:
       - pwd
       - ls -lrta
            # - cd $CODEBUILD_SRC_DIR 
-    # - git clone https://github.com/Rahul-456/bike.git
+     - git clone https://github.com/Rahul-456/bike.git
       - pwd
       - ls -lrta
   build:
