@@ -8,8 +8,8 @@ phases:
       - echo "pre-build started"
       - pwd
       - ls -lrta
-           # - cd $CODEBUILD_SRC_DIR 
-     - git clone https://github.com/Rahul-456/bike.git
+      - cd $CODEBUILD_SRC_DIR 
+    # - git clone https://github.com/Rahul-456/bike.git
       - pwd
       - ls -lrta
   build:
@@ -22,5 +22,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-   # - target/staragile-1.0.0.war
+   # - target/devops.war
     # - '**/*'
