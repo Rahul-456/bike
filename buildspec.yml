@@ -22,5 +22,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-   # - target/devops.war
+      - target/devops.war
     # - '**/*'
