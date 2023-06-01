@@ -8,6 +8,7 @@ phases:
       - echo "pre-build started"
       - pwd
       - ls -lrta
+           # - cd $CODEBUILD_SRC_DIR 
     # - git clone https://github.com/Rahul-456/bike.git
       - pwd
       - ls -lrta
