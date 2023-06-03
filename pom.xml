@@ -41,16 +41,17 @@
    </distributionManagement>
     -->
     <distributionManagement>
+                                                                                            
     <repository>
-        <id>releases</id>
-        <name>libs-releases-local</name>
-        <url>hhttp://44.204.14.35:8082/artifactory/libs-release-local/</url>
+        <id>central</id>
+        <name>a0zcwngm1ayip-artifactory-primary-0-releases</name>
+        <url>https://ramagiri.jfrog.io/artifactory/libs-release-local</url>
     </repository>
-
+        
     <snapshotRepository>
         <id>snapshots</id>
-        <name>libs-snapshots-local</name>
-        <url>http://44.204.14.35:8082/artifactory/libs-snapshot-local/</url>
+        <name>a0zcwngm1ayip-artifactory-primary-0-snapshots</name>
+        <url>https://ramagiri.jfrog.io/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement> 
     <dependencies>
