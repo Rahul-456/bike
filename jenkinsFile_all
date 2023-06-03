@@ -45,11 +45,11 @@ pipeline {
                 sh 'mvn package'
             }
         }
-         //  stage('Stage-8 : Deploy an Artifact to Artifactory Manager Jfrog') { 
-          // steps {
-            ///   sh 'mvn deploy'
-        //   }
-        // }
+           stage('Stage-8 : Deploy an Artifact to Artifactory Manager Jfrog') { 
+           steps {
+               sh 'mvn deploy'
+           }
+         }
         //  stage('Stage-9 : Deployment - Deploy a Artifact RamagiriRoy-1.0.9-SNAPSHOT.war file to Tomcat Server') { 
          //   steps {
           //      sh 'curl -u tomcat:redhat@123 -T target/devops.war "http://107.23.152.192:8080/manager/text/deploy?path=/devops&update=true"'
