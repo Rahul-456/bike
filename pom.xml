@@ -22,10 +22,17 @@
         <sonar.organization>inox</sonar.organization>
         <sonar.projectKey>inox_rahul</sonar.projectKey>
         <sonar.login>ab37f263a1e33acace63426e082391c519a17a08</sonar.login>
+       --> 
+
+        <!--
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>inox</sonar.organization>
+        <sonar.projectKey>inox_rahul</sonar.projectKey>
+        <sonar.login>ab37f263a1e33acace63426e082391c519a17a08</sonar.login>
        -->
 
     </properties>
-<!--
+
     <distributionManagement>
     <repository>
         <id>releases</id>
@@ -39,7 +46,8 @@
        <url>http://54.210.27.107:8081/artifactory/libs-snapshot</url>
      </snapshotRepository>
    </distributionManagement>
-    -->
+    <!--
+
     <distributionManagement>
                                                                                             
     <repository>
@@ -53,7 +61,9 @@
         <name>libs-snapshots-local</name>
         <url>https://ramagiri.jfrog.io/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-</distributionManagement> 
+</distributionManagement>
+ -->
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
