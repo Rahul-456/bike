@@ -17,23 +17,11 @@
         <sonar.organization>aha</sonar.organization>
         <sonar.projectKey>aha</sonar.projectKey>
         <sonar.login>sqp_ee1a5fa066af6f9856e53a05bc4026a6656bb3c7</sonar.login>
-        <!--
-         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>inox</sonar.organization>
-        <sonar.projectKey>inox_rahul</sonar.projectKey>
-        <sonar.login>ab37f263a1e33acace63426e082391c519a17a08</sonar.login>
-       --> 
-
-        <!--
-         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>inox</sonar.organization>
-        <sonar.projectKey>inox_rahul</sonar.projectKey>
-        <sonar.login>ab37f263a1e33acace63426e082391c519a17a08</sonar.login>
-       -->
 
     </properties>
 
      <distributionManagement>
+
           <snapshotRepository>
               <id>snapshots</id>
               <name>jfrog.cloudbinary.io-snapshots</name>
@@ -45,7 +33,10 @@
             <name>jfrog.cloudbinary.io-releases</name>
             <url>http://44.201.112.173:8081/artifactory/libs-release-local</url>
         </repository>
+         
     </distributionManagement>
+
+    
     <!--
 
     <distributionManagement>
