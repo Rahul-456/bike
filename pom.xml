@@ -2,8 +2,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>RamagiriRoy</artifactId>
-    <version>4.0.0-SNAPSHOT</version>
+    <artifactId>cb10amdevops</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Cloud Binary Sample Spring MVC Application</name>
 
@@ -12,48 +12,45 @@
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        
-       <sonar.host.url>http://54.152.84.89:9000</sonar.host.url>
-        <sonar.organization>aha</sonar.organization>
-        <sonar.projectKey>aha</sonar.projectKey>
-        <sonar.login>sqp_ee1a5fa066af6f9856e53a05bc4026a6656bb3c7</sonar.login>
-
+ 
+        <sonar.host.url>http://3.90.220.79:9000</sonar.host.url>
+        <sonar.organization>10amdevops</sonar.organization>
+        <sonar.projectKey>10amdevops</sonar.projectKey>
+        <sonar.login>sqp_95a44a99af80078c09b1e2bfc53a4bbef6c2b391</sonar.login>
+       
     </properties>
 
-     <distributionManagement>
-
-          <snapshotRepository>
-              <id>snapshots</id>
-              <name>jfrog.cloudbinary.io-snapshots</name>
-              <url>http://44.201.112.173:8081/artifactory/libs-snapshot-local</url>
-          </snapshotRepository>
-      
-        <repository>
-            <id>releases</id>
-            <name>jfrog.cloudbinary.io-releases</name>
-            <url>http://44.201.112.173:8081/artifactory/libs-release-local</url>
-        </repository>
-         
-    </distributionManagement>
-
-    
     <!--
-
     <distributionManagement>
-                                                                                            
-    <repository>
-        <id>release</id>
-        <name>libs-releases-local</name>
-        <url>https://ramagiri.jfrog.io/artifactory/libs-release-local</url>
-    </repository>
-        
     <snapshotRepository>
         <id>snapshots</id>
-        <name>libs-snapshots-local</name>
-        <url>https://ramagiri.jfrog.io/artifactory/libs-snapshot-local</url>
+        <name>a0bdlik6tnfce-artifactory-primary-0-snapshots</name>
+        <url>https://devopskesav.jfrog.io/artifactory/libs-snapshot</url>
     </snapshotRepository>
+    <repository>
+        <id>releases</id>
+        <name>a0bdlik6tnfce-artifactory-primary-0-releases</name>
+        <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
+    </repository>	
 </distributionManagement>
- -->
+    -->
+    
+<distributionManagement>
+    
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.cloudbinary.io-snapshots</name>
+        <url>http://54.156.113.36:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+    
+    <repository>
+        <id>releases</id>
+        <name>jfrog.cloudbinary.io-releases</name>
+        <url>http://54.156.113.36:8081/artifactory/libs-release-local</url>
+    </repository>
+
+</distributionManagement>    
+    
     
     <dependencies>
         <dependency>
