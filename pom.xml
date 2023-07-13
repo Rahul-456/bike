@@ -14,10 +14,10 @@
         <maven.compiler.target>11</maven.compiler.target>
  
     
-  <sonar.host.url>http://18.207.122.154:9000</sonar.host.url>
-  <sonar.organization>yesh</sonar.organization>
-  <sonar.projectKey>yesh</sonar.projectKey>
-  <sonar.login>sqp_49be47ed76efd481ba620b746072b9ff6a36433e</sonar.login>
+ <sonar.host.url>http://54.145.209.4:9000</sonar.host.url>
+  <sonar.organization>pipeline</sonar.organization>
+  <sonar.projectKey>pipeline</sonar.projectKey>
+  <sonar.login>sqp_1c4ea10a311ef6515e09d7802682070e05d9cbb8</sonar.login>
        
     </properties>
 
