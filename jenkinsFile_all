@@ -50,18 +50,18 @@ pipeline {
             sh 'mvn deploy'
       }
   }
-       //  stage('Stage-9 : Deployment - Deploy a Artifact cb10amdevops-1.0.9-SNAPSHOT.war file to Tomcat Server') { 
-        //     steps {
-        //       sh 'curl -u admin:redhat@123 -T target/devops.war "http://13.126.7.72:8080////manager/text/deploy?path=/devops&update=true"'
-      //    }
-    //  } 
+         stage('Stage-9 : Deployment - Deploy a Artifact cb10amdevops-1.0.9-SNAPSHOT.war file to Tomcat Server') { 
+             steps {
+              sh 'curl -u admin:redhat@123 -T target/devops.war "http://13.233.250.36:8080////manager/text/deploy?path=/devops&update=true"'
+          }
+      } 
   
-      // stage('Stage-10 : SmokeTest') { 
-     //       steps {
-     ///          sh 'curl --retry-delay 10 --retry 5 "http://13.126.7.72:8080////devops"'
-     //   }
- //  }
-            // hrugwy4rt
+       stage('Stage-10 : SmokeTest') { 
+            steps {
+               sh 'curl --retry-delay 10 --retry 5 "http://13.233.250.36:8080///devops"'
+        }
+   }
+            
     }
 }
  
