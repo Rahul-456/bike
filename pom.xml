@@ -14,10 +14,11 @@
         <maven.compiler.target>11</maven.compiler.target>
  
     
-<sonar.host.url>http://3.110.77.109:9000</sonar.host.url>
-  <sonar.organization>rahul</sonar.organization>
-  <sonar.projectKey>rahul</sonar.projectKey>
-  <sonar.login>sqp_595c9e25944d86d33900e2a1808d51c49b5c6061</sonar.login>  
+<sonar.host.url>http://3.109.143.148:9000</sonar.host.url>
+  <sonar.organization>roy</sonar.organization>
+  <sonar.projectKey>roy</sonar.projectKey>
+  <sonar.login>sqp_fcea0886b5bb6368087c713289e4afef9da3604a</sonar.login>
+        
     </properties>
 
     <!--
@@ -40,16 +41,16 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.cloudbinary.io-snapshots</name>
-        <url>http://3.111.35.206:8082/artifactory/libs-snapshot-local</url>
+        <url>http://13.233.54.129:8082/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 
   <repository>
       <id>releases</id>
       <name>jfrog.cloudbinary.io-releases</name>
-      <url>http://3.111.35.206:8082/artifactory/libs-release-local</url>
+      <url>http://13.233.54.129:8082/artifactory/libs-release-local</url>
   </repository>
-</distributionManagement>   
-    
+</distributionManagement>    
+
     
     <dependencies>
         <dependency>
